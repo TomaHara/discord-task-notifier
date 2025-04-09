@@ -1,0 +1,36 @@
+# python generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# venv
+.venv
+
+# environment variables and sensitive info
+.env
+.env.*
+!.env.sample
+
+# rye/pip related files
+.python-version
+.uv
+
+# cache files
+.DS_Store
+.ruff_cache/
+
+# editor configs
+.vscode/
+.idea/
+
+# log files
+*.log
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# lock files (optional, can be versioned if preferred)
+# requirements*.lock
